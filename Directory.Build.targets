@@ -1,0 +1,9 @@
+<Project>
+  <Target Name="RemoveDatabaseFiles" AfterTargets="Clean">
+    <ItemGroup>
+      <DatabaseFiles Include="$(OutputPath)**\*.sdf" />
+      <DatabaseFiles Include="$(OutputPath)**\*.db" />
+    </ItemGroup>
+    <Delete Files="@(DatabaseFiles)" />
+  </Target>
+</Project>

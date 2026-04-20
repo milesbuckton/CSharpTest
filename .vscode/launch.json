@@ -1,0 +1,32 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Import.Legacy (.NET Framework)",
+            "type": "clr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/Import.Legacy/bin/Debug/net472/Import.Legacy.exe",
+            "cwd": "${workspaceFolder}/Import.Legacy/bin/Debug/net472",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Import.Modern (.NET 10)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/Import.Modern/bin/Debug/net10.0/win-x64/Import.Modern.dll",
+            "cwd": "${workspaceFolder}/Import.Modern/bin/Debug/net10.0/win-x64",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Retries (.NET 10)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/Retries/bin/Debug/net10.0/win-x64/Retries.dll",
+            "cwd": "${workspaceFolder}/Retries/bin/Debug/net10.0/win-x64",
+            "console": "integratedTerminal"
+        }
+    ]
+}
