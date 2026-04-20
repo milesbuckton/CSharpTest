@@ -1,0 +1,9 @@
+<Solution>
+  <Project Path="Import.Common/Import.Common.csproj" />
+  <Project Path="Import.Legacy/Import.Legacy.csproj" />
+  <Project Path="Import.Modern/Import.Modern.csproj" />
+  <Project Path="Logging/Logging.csproj" />
+  <Project Path="Retries/Retries.csproj" />
+  <Project Path="Server/Server.csproj" />
+  <Project Path="Tests/Tests.csproj" />
+</Solution>
